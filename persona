@@ -10,8 +10,12 @@
 https://twitter.com/*/status/
 https://snug.moe/
 https://www.reddit.com/r/
+
 $discard,site=youtube.com
 $discard,site=pixiv.net
+$discard,site=amazon
+$discard,site=wikipedia
+
 web3$indescription=mastodon
 web3$indescription=misskey
 
