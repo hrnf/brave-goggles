@@ -7,9 +7,8 @@
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
 ! as-is:
-https://twitter.com/*/status/
-https://snug.moe/
-https://www.reddit.com/r/
+https://twitter.com/$boost-10
+https://snug.moe/$boost-9
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
@@ -17,10 +16,11 @@ $discard,site=www.amazon.com
 $discard,site=en.wikipedia.org
 $discard,site=store.steampowered.com
 $discard,indescription=wiki
+$discard,intitle=reddit
 $discard,web3$indescription=wiki
 
-web3$indescription=mastodon
-web3$indescription=misskey
+$indescription=mastodon
+$indescription=misskey
 
 ! It is also possible to use some limited "globbing" capabilities such as the
 ! '*' character which will match zero, one or more characters (note: the number
