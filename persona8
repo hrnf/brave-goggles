@@ -9,10 +9,8 @@
 ! as-is:
 $boost=5,site=twitter.com
 /status/*$boost=5,site=twitter.com
-$boost=10,indescription=mastodon
-$boost=9,indescription=misskey
-$boost=10,intitle=mastodon
-$boost=9,intitle=misskey
+mastodon$boost=10,intitle
+misskey$boost=9,intitle
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
