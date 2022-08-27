@@ -7,8 +7,10 @@
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
 ! as-is:
-$boost=10,site=twitter.com
-/status/*$boost=9,site=twitter.com
+$boost=1,site=twitter.com
+/status/*$boost=1,site=twitter.com
+$boost=10,indescription=mastodon
+$boost=9,indescription=misskey
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
@@ -19,8 +21,6 @@ $discard,indescription=wiki
 $discard,intitle=reddit
 $discard,web3$indescription=wiki
 
-$indescription=mastodon
-$indescription=misskey
 
 ! It is also possible to use some limited "globbing" capabilities such as the
 ! '*' character which will match zero, one or more characters (note: the number
