@@ -15,6 +15,9 @@ $discard,site=youtube.com
 $discard,site=pixiv.net
 $discard,site=|amazon
 $discard,site=|wikipedia.org
+$discard,site=store.steampowered.com
+$discard,indescription=wiki
+$discard,web3$indescription=wiki
 
 web3$indescription=mastodon
 web3$indescription=misskey
