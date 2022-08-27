@@ -7,10 +7,12 @@
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
 ! as-is:
-$boost=1,site=twitter.com
-/status/*$boost=1,site=twitter.com
+$boost=5,site=twitter.com
+/status/*$boost=5,site=twitter.com
 $boost=10,indescription=mastodon
 $boost=9,indescription=misskey
+$boost=10,intitle=mastodon
+$boost=9,intitle=misskey
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
