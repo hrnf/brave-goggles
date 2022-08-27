@@ -8,6 +8,7 @@
 ! The following would match any search result whose URL contains the pattern
 ! as-is:
 $boost=10,site=twitter.com
+/status/*$boost=9,site=twitter.com
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
