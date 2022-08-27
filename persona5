@@ -7,7 +7,7 @@
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
 ! as-is:
-$boost-10,site=twitter.com
+$boost=10,site=twitter.com
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
