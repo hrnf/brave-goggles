@@ -7,9 +7,9 @@
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
 ! as-is:
-https://twitter.com/*/status/$boost-10
-https://snug.moe/$boost-10
-https://www.reddit.com/r/$boost-10
+https://twitter.com/*/status/
+https://snug.moe/
+https://www.reddit.com/r/
 
 $discard,site=www.youtube.com
 $discard,site=www.pixiv.net
