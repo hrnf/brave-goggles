@@ -1,7 +1,7 @@
-name: Persona
-description: Social Media Crawler
-public: false
-author: Hernan
+! name: Persona
+! description: Social Media Crawler
+! public: false
+! author: Hernan
 
 ! The simplest instruction is a plain-text pattern which can be found in URLs.
 ! The following would match any search result whose URL contains the pattern
