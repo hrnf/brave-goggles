@@ -13,8 +13,8 @@ https://www.reddit.com/r/
 
 $discard,site=youtube.com
 $discard,site=pixiv.net
-$discard,site=amazon
-$discard,site=wikipedia
+$discard,site=|amazon
+$discard,site=|wikipedia.org
 
 web3$indescription=mastodon
 web3$indescription=misskey
