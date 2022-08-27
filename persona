@@ -11,16 +11,6 @@ https://twitter.com/*/status/
 https://snug.moe/
 https://www.reddit.com/r/
 
-$discard,site=www.youtube.com
-$discard,site=www.pixiv.net
-$discard,site=www.amazon.com
-$discard,site=en.wikipedia.org
-$discard,site=store.steampowered.com
-$discard,indescription=wiki
-$discard,web3$indescription=wiki
-
-web3$indescription=mastodon
-web3$indescription=misskey
 
 ! It is also possible to use some limited "globbing" capabilities such as the
 ! '*' character which will match zero, one or more characters (note: the number
